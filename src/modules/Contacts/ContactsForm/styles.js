@@ -6,7 +6,6 @@ export const styles ={
     form: {
         display: 'flex',
         flexDirection: 'column',
-        
         maxWidth: '767px',
     },
     flex:{
@@ -15,39 +14,20 @@ export const styles ={
        
     },
     input: {
-        padding: '10px 15px',
-        border: 'none',
-        borderRadius: '10px',
-        fontSize: '14px',
-        backgroundColor: '#f9f9f9',
         width: '364px',
         height: '66px',
     
     },
 
     textarea: {
-        padding: '10px 15px',
-        border: 'none',
-        borderRadius: '10px',
-        fontSize: '14px',
-        backgroundColor: '#f9f9f9',
         width: '767px',
         minHeight: '120px',
         resize: 'none',
         fontFamily: "Montserrat",
-        color: '#000',
-
     },
 
     button: {
-        padding: '10px 20px',
-        backgroundColor: '#000',
-        color: '#fff',
-        border: 'none',
-        fontSize: '14px',
-        cursor: 'pointer',
         alignSelf: 'flex-end',
-        borderRadius: '10px',
         width: '131px',
         height: '53px',
     },
